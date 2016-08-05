@@ -1,0 +1,1018 @@
+<html><head>
+    <meta name="keywords" content="魏丁,Minecraft,Minecraft 1.8,魏丁都不蔚汀伺服器,WeiDingServer">
+    <meta name="description" content="一個非常小非常少人但很快樂的超小型伺服器">
+    <title>武器合成表 | WeiDingServer【魏丁都不蔚汀伺服器】</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  </head><body background="../../back.gif">
+    <script type="text/javascript" src="../../_include/navbar.js"></script>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <script language="JavaScript">
+              function doSearch(text) {
+              	var isfound=0;
+                  if (window.find && window.getSelection) {
+                      document.designMode = "on";
+                      var sel = window.getSelection();
+                    sel.collapse(document.body, 0);
+              		sel.collapseToEnd();
+              		isfound=0;
+              
+                      while (window.find(text)) {
+                          document.getElementById("button").blur();
+                          document.execCommand("HiliteColor", false, "yellow");
+                          sel.collapseToEnd();
+              			isfound=1;
+                      }
+               		if (isfound == 0) {
+              			alert('未找到');
+              		}
+                     document.designMode = "off";
+                  } else if (document.body.createTextRange) {
+                      var textRange = document.body.createTextRange();
+              		isfound=0;
+                      while (textRange.findText(texta)) {
+                          textRange.execCommand("BackColor", false, "yellow");
+                          textRange.collapse(false);
+              			alert('cant scroll down less than IE8');
+              			isfound=1;
+                      }
+              		if (isfound == 0)
+              			alert('未找到');
+                  }
+              }
+            </script>
+            <ul class="breadcrumb">
+              <li>
+                <a href="/">首頁</a>
+              </li>
+              <li>
+                <a href="../">物品介紹</a>
+              </li>
+              <li class="active">武器合成表</li>
+            </ul>
+            <form name="search">
+              <p align="left">請輸入欲尋找的裝備關鍵字:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" size="15" id="search" value="蔚汀的點心">
+                <input type="button" value="搜尋" id="button" onmousedown="doSearch(document.getElementById('search').value)">
+                <br>　</p>
+              <p align="left">如果無法找到該物品, 請手動 Ctrl+F 搜尋裝備.</p>
+            </form>
+            <p align="left">為簡化頁面, 所以工作臺中的擺法以
+              <font color="#FF0000">
+                <u>
+                  <b>代號</b>
+                </u>
+              </font>
+              <font color="#000000">表示</font>
+            </p>
+            <p align="left">若合成物品有機率失敗, 會在物品名稱後
+              <u>
+                <font color="#FF0000">
+                  <b>標明成功機率</b>
+                </font>
+              </u>
+            </p>
+            <p align="left">若搜尋後仍沒有, 則為無法藉由合成取得</p>
+            <table border="1" width="14%" height="144">
+              <tbody>
+                <tr>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <p align="center">
+                      <span lang="en-us">
+                        <font size="6">A</font>
+                      </span>
+                    </p>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">B</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">C</font>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">D</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">E</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">F</font>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">G</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">H</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">I</font>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              <font size="6" color="#0000FF">劍類武器</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%" height="49">
+                    <img border="0" src="../../item_image/00216513.JPG" width="32" height="32">終界之劍。德古拉</td>
+                  <td height="49">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229160.GIF" width="32" height="32">
+                    </span>發酵蜘蛛眼
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229121.GIF" width="32" height="32">
+                      </span>腐肉
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(
+                        <img border="0" src="../../item_image/iron.GIF" width="32" height="32">
+                      </span>鐵劍
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229121.GIF" width="32" height="32">
+                      </span>腐肉
+                      <span lang="en-us">)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229159.GIF" width="32" height="32">
+                      </span>蜘蛛眼
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229107.GIF" width="32" height="32">骨劍</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229107.GIF" width="32" height="32">
+                    <span lang="en-us">骷髏的脊隨) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229107.GIF" width="32" height="32">
+                      <span lang="en-us">骷髏的脊隨) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229008.GIF" width="32" height="32">
+                      </span>木棒
+                      <span lang="en-us">) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/iron.GIF" width="32" height="32">衝撞</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228848.GIF" width="32" height="32">鐵磚
+                    <span lang="en-us">) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228848.GIF" width="32" height="32">鐵磚
+                      <span lang="en-us">) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229008.GIF" width="32" height="32">
+                      </span>木棒
+                      <span lang="en-us">) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229004.GIF" width="32" height="32">綠寶石大劍</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-綠寶石
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Block_of_Emerald.png" width="32" height="32">
+                    </span>綠寶石磚
+                    <span lang="en-us">) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(
+                        <img border="0" src="../../item_image/Block_of_Emerald.png" width="32" height="32">
+                      </span>綠寶石磚
+                      <span lang="en-us">) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229008.GIF" width="32" height="32">
+                      </span>木棒
+                      <span lang="en-us">) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229004.GIF" width="32" height="32">綠寶石大劍《二代》</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229004.GIF" width="32" height="32">
+                    <span lang="en-us">+12</span>綠寶石大劍
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228951.GIF" width="32" height="32">高階強化石
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229004.GIF" width="32" height="32">
+                    <span lang="en-us">+12</span>綠寶石大劍
+                    <span lang="en-us">)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-綠寶石
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228951.GIF" width="32" height="32">高階強化石
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-綠寶石
+                      <span lang="en-us">)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/Block_of_Emerald.png" width="32" height="32">
+                      </span>綠寶石磚
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228951.GIF" width="32" height="32">高階強化石
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(
+                        <img border="0" src="../../item_image/Block_of_Emerald.png" width="32" height="32">
+                      </span>綠寶石磚
+                      <span lang="en-us">)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">斧類武器</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">鎬類武器</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">鋤類武器</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">鏟類武器</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">弓類武器</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%" height="49">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">MadeInChina弓</td>
+                  <td height="49">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                    </span>線
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片) C(*)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">初階聚爆</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                    </span>線
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">MadeInChina弓
+                    <span lang="en-us">)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">MadeInChina弓
+                      <span lang="en-us">)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">中階聚爆</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                    </span>線
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">初階聚爆
+                    <span lang="en-us">)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">初階聚爆
+                      <span lang="en-us">)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">高階聚爆</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                    </span>線
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">中階聚爆
+                    <span lang="en-us">)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">中階聚爆
+                      <span lang="en-us">)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">國王的聚爆</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                    </span>線
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">高階聚爆
+                    <span lang="en-us">)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">高階聚爆
+                      <span lang="en-us">)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">上帝聚爆</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                    </span>線
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                    <span lang="en-us">終界碎片)
+                      <font color="#FF0000">
+                        <b>C</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">國王的聚爆
+                    <span lang="en-us">)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>G</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">
+                      </span>線
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">
+                      <span lang="en-us">終界碎片)
+                        <font color="#FF0000">
+                          <b>I</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">國王的聚爆
+                      <span lang="en-us">)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">覺醒的薩塔弓</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229033.GIF" width="32" height="32">薩塔王的王冠
+                    <span lang="en-us">) C(*)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">薩塔的古老弓
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">薩塔的古老弓
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">薩塔的古老弓
+                      <span lang="en-us">)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/ss.gif" width="32" height="32">
+                      </span>薩塔王的野心
+                      <span lang="en-us">) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">真。覺醒的薩塔弓</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229033.GIF" width="32" height="32">薩塔王的王冠
+                    <span lang="en-us">) C(*)</span>
+                    <p>
+                      <span lang="en-us">
+                        <font color="#FF0000">
+                          <b>D</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">覺醒的薩塔弓
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">覺醒的薩塔弓
+                      <span lang="en-us">)
+                        <font color="#FF0000">
+                          <b>F</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">覺醒的薩塔弓
+                      <span lang="en-us">)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/ss.gif" width="32" height="32">
+                      </span>薩塔王的野心
+                      <span lang="en-us">) I(*)</span>　</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">修練家戰鬥弓</td>
+                  <td width="75%">
+                    <span lang="en-us">(</span>
+                    <img border="0" src="../../item_image/00229015.GIF" width="32" height="32">聚合彈性線
+                    <span lang="en-us">)*3 (
+                      <img border="0" src="../../item_image/00229008.GIF" width="32" height="32">
+                    </span>木製弓柄
+                    <span lang="en-us">)*3 (</span>
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">
+                    <span lang="en-us">北帝國鎢鋼)*3</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">修練家
+                    <font color="#FF0000">
+                      <b>[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]</b>
+                    </font>戰鬥弓</td>
+                  <td width="75%">
+                    <span lang="en-us">
+                      <font color="#FF0000">
+                        <b>A</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00228993.GIF" width="32" height="32">修練家戰鬥弓
+                    <span lang="en-us">)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229081.GIF" width="32" height="32">
+                    <b>
+                      <font color="#FF0000">[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ]</font>
+                    </b>
+                    <span lang="en-us">球) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>　</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">亂入類</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%">
+                    <span lang="en-us">
+                      <img border="0" src="../../item_image/00229008.GIF" width="32" height="32">
+                    </span>泥馬牌木棒</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*)
+                      <font color="#FF0000">
+                        <b>B</b>
+                      </font>(</span>
+                    <img border="0" src="../../item_image/00229107.GIF" width="32" height="32">骨劍
+                    <span lang="en-us">) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*)
+                        <font color="#FF0000">
+                          <b>E</b>
+                        </font>(</span>
+                      <img border="0" src="../../item_image/00229107.GIF" width="32" height="32">骨劍
+                      <span lang="en-us">) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*)
+                        <font color="#FF0000">
+                          <b>H</b>
+                        </font>(
+                        <img border="0" src="../../item_image/00229008.GIF" width="32" height="32">
+                      </span>木棒
+                      <span lang="en-us">) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">
+                    <span lang="en-us">A(*) B(*) C(*)</span>
+                    <p>
+                      <span lang="en-us">D(*) E(*) F(*)</span>
+                    </p>
+                    <p>
+                      <span lang="en-us">G(*) H(*) I(*)</span>
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>　</p>
+            <p>　</p>
+            <p>
+              <a href="../" style="text-decoration: none">--返回合成表列表--</a>
+            </p>
+            <p>　</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../../_include/footer.js"></script>
+  
+
+</body></html>

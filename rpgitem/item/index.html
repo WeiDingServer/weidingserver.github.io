@@ -1,0 +1,919 @@
+<html><head>
+    <meta name="keywords" content="魏丁,Minecraft,Minecraft 1.8,魏丁都不蔚汀伺服器,WeiDingServer">
+    <meta name="description" content="一個非常小非常少人但很快樂的超小型伺服器">
+    <title>素材合成表 | WeiDingServer【魏丁都不蔚汀伺服器】</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="../../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../assets/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  </head><body background="../../back.gif">
+    <script type="text/javascript" src="../../_include/navbar.js"></script>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <script language="JavaScript">
+              function doSearch(text) {
+              	var isfound=0;
+                  if (window.find && window.getSelection) {
+                      document.designMode = "on";
+                      var sel = window.getSelection();
+                    sel.collapse(document.body, 0);
+              		sel.collapseToEnd();
+              		isfound=0;
+              
+                      while (window.find(text)) {
+                          document.getElementById("button").blur();
+                          document.execCommand("HiliteColor", false, "yellow");
+                          sel.collapseToEnd();
+              			isfound=1;
+                      }
+               		if (isfound == 0) {
+              			alert('未找到');
+              		}
+                     document.designMode = "off";
+                  } else if (document.body.createTextRange) {
+                      var textRange = document.body.createTextRange();
+              		isfound=0;
+                      while (textRange.findText(texta)) {
+                          textRange.execCommand("BackColor", false, "yellow");
+                          textRange.collapse(false);
+              			alert('cant scroll down less than IE8');
+              			isfound=1;
+                      }
+              		if (isfound == 0)
+              			alert('未找到');
+                  }
+              }
+            </script>
+            <ul class="breadcrumb">
+              <li>
+                <a href="/">首頁</a>
+              </li>
+              <li>
+                <a href="../">物品介紹</a>
+              </li>
+              <li class="active">素材合成表</li>
+            </ul>
+            <form name="search">
+              <p align="left">請輸入欲尋找的裝備關鍵字:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" size="15" id="search" value="蔚汀的點心">
+                <input type="button" value="搜尋" id="button" onmousedown="doSearch(document.getElementById('search').value)">
+                <br>　</p>
+              <p align="left">如果無法找到該物品, 請手動 Ctrl+F 搜尋裝備.</p>
+            </form>
+            <p align="left">為簡化頁面, 所以工作臺中的擺法以
+              <font color="#FF0000">
+                <u>
+                  <b>代號</b>
+                </u>
+              </font>
+              <font color="#000000">表示</font>
+            </p>
+            <p align="left">若合成物品有機率失敗, 會在物品名稱後
+              <u>
+                <font color="#FF0000">
+                  <b>標明成功機率</b>
+                </font>
+              </u>
+            </p>
+            <p align="left">若搜尋後仍沒有, 則為無法藉由合成取得</p>
+            <table border="1" width="14%" height="144">
+              <tbody>
+                <tr>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <p align="center">
+                      <span lang="en-us">
+                        <font size="6">A</font>
+                      </span>
+                    </p>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">B</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">C</font>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">D</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">E</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">F</font>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">G</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">H</font>
+                    </span>
+                  </td>
+                  <td bgcolor="#FFFFFF" align="center">
+                    <span lang="en-us">
+                      <font size="6">I</font>
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              <font size="6" color="#0000FF">強化類型物品</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%" height="49">
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">初階強化石</td>
+                  <td height="49">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界珍珠)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界珍珠) C(*)
+                    <p>
+                      <b>
+                        <font color="#FF0000">D</font>
+                      </b>(
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界珍珠)
+                      <b>
+                        <font color="#FF0000">E</font>
+                      </b>(
+                      <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界珍珠) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228997.GIF" width="32" height="32">中階強化石</td>
+                  <td width="75%">
+                    <b>
+                      <font color="#FF0000">A</font>
+                    </b>(
+                    <img border="0" src="../../item_image/00228997.GIF" width="32" height="32">鑽石)
+                    <b>
+                      <font color="#FF0000">B</font>
+                    </b>(
+                    <img border="0" src="../../item_image/00228997.GIF" width="32" height="32">鑽石)
+                    <span lang="en-us">C</span>(*)
+                    <p>
+                      <span lang="en-us">
+                        <b>
+                          <font color="#FF0000">D</font>
+                        </b>
+                      </span>(
+                      <img border="0" src="../../item_image/00228997.GIF" width="32" height="32">鑽石)
+                      <b>
+                        <font color="#FF0000">
+                          <span lang="en-us">E</span>
+                        </font>
+                      </b>(
+                      <img border="0" src="../../item_image/00228997.GIF" width="32" height="32">鑽石) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228951.GIF" width="32" height="32">高階強化石</td>
+                  <td width="75%">
+                    <b>
+                      <font color="#FF0000">A</font>
+                    </b>(
+                    <img border="0" src="../../item_image/00228951.GIF" width="32" height="32">綠寶石)
+                    <b>
+                      <font color="#FF0000">B</font>
+                    </b>(
+                    <img border="0" src="../../item_image/00228951.GIF" width="32" height="32">綠寶石) C(*)
+                    <p>D(
+                      <span lang="en-us">*</span>) E(
+                      <span lang="en-us">*</span>) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">　</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">特殊製作物品</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%" height="49">
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-金</td>
+                  <td height="49">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-金)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-鑽石
+                    <span lang="en-us">
+                      <b>
+                        <font color="#FF0000">(95%)</font>
+                      </b>
+                    </span>
+                  </td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-鑽石)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-綠寶石
+                    <span lang="en-us">
+                      <b>
+                        <font color="#FF0000">(90%)</font>
+                      </b>
+                    </span>
+                  </td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-綠寶石)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-魔金石
+                    <span lang="en-us">
+                      <b>
+                        <font color="#FF0000">(85%)</font>
+                      </b>
+                    </span>
+                  </td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-魔金石)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書-黑鐵石
+                    <span lang="en-us">
+                      <b>
+                        <font color="#FF0000">(80%)</font>
+                      </b>
+                    </span>
+                  </td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229190.GIF" width="32" height="32">製作咒文書碎片-黑鐵石)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">　</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>　</p>
+            <p>
+              <font size="6" color="#0000FF">基本素材物品</font>
+            </p>
+            <table border="1" width="100%" height="107">
+              <tbody>
+                <tr>
+                  <td width="23%" height="49">
+                    <p align="left">
+                      <img border="0" src="../../item_image/00229055.GIF" width="32" height="32">生命結晶</p>
+                  </td>
+                  <td height="49">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229081.GIF" width="32" height="32">生命法球)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界碎片) C(*)
+                    <p>D(*) E(*) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228868.GIF" width="32" height="32">爆裂魂</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229018.GIF" width="32" height="32">爆裂碎片)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229018.GIF" width="32" height="32">火藥) C(*)
+                    <p>D(*) E(*) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">移動石</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界碎片)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229122.GIF" width="32" height="32">終界碎片) C(*)
+                    <p>D(*) E(*) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229162.GIF" width="32" height="32">燃燒石</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229162.GIF" width="32" height="32">燃燒碎片)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229162.GIF" width="32" height="32">熔岩球) C(*)
+                    <p>D(*) E(*) F(*)</p>
+                    <p>G(*) H(*) I(*)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229018.GIF" width="32" height="32">爆縮體)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229018.GIF" width="32" height="32">爆縮體)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">金礦)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00229074.GIF" width="32" height="32">堅硬的紅礦</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">鐵礦)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/AB6O0.png" width="25" height="22">紅石)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228848.GIF" width="32" height="32">堅硬的鐵磚</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228998.GIF" width="32" height="32">堅硬的鐵礦)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228847.GIF" width="32" height="32">堅硬的 金磚</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00228999.GIF" width="32" height="32">堅硬的金礦)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/00228996.GIF" width="32" height="32">虛無之石</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/00229116.GIF" width="32" height="32">虛無之石的碎片)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">黃色羊毛)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">高純度黃色羊毛</td>
+                  <td width="75%">
+                    <font color="#FF0000">
+                      <b>A</b>
+                    </font>(
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                    <font color="#FF0000">
+                      <b>B</b>
+                    </font>(
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                    <font color="#FF0000">
+                      <b>C</b>
+                    </font>(
+                    <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                    <p>
+                      <font color="#FF0000">
+                        <b>D</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                      <font color="#FF0000">
+                        <b>E</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                      <font color="#FF0000">
+                        <b>F</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)</p>
+                    <p>
+                      <font color="#FF0000">
+                        <b>G</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                      <font color="#FF0000">
+                        <b>H</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)
+                      <font color="#FF0000">
+                        <b>I</b>
+                      </font>(
+                      <img border="0" src="../../item_image/Grid_Yellow_Wool.png" width="32" height="32">低純度黃色羊毛)</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="23%">　</td>
+                  <td width="75%">　</td>
+                </tr>
+              </tbody>
+            </table>
+            <p>
+              <a href="../" style="text-decoration: none">--返回合成表列表--</a>
+            </p>
+            <p>　</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="../../_include/footer.js"></script>
+  
+
+</body></html>
