@@ -1,6 +1,6 @@
-/**
- * ¶i¤J»y­µ¸s
- * @param {Number} sid ¸sID
+ï»¿/**
+ * é€²å…¥èªžéŸ³ç¾¤
+ * @param {Number} sid ç¾¤ID
  */
 function goChannel(sid) {
     location.href = 'rctw://enterServer/?sid=' + sid;
