@@ -5,7 +5,7 @@ document.writeln("          <div class=\'col-sm-6\'>");
 document.writeln("            <h1>WeiDingServer</h1>");
 document.writeln("            <p>服主：魏丁");
 document.writeln("              <br>網站設計：<a href=\'https://www.facebook.com/TPGoneTone\' target=\'_blank\'><font color=\'#ffffff\'>旋風之音</font></a>");
-document.writeln("              <br><script language=\'javascript\'>var Today=new Date(); document.write(\'Copyright &copy; 2014-\' + Today.getFullYear() + \' <a href=\'/\'><font color=\'#ffffff\'>WeiDingServer</font></a> | All rights reserved.\');</script></p>");
+document.writeln("              <br>Copyright &copy; 2014-<script language=\'javascript\'>var Today=new Date(); document.write(Today.getFullYear() + \' ');</script><a href=\'/\'><font color=\'#ffffff\'>WeiDingServer</font></a> | All rights reserved.\</p>");
 document.writeln("          </div>");
 document.writeln("          <div class=\'col-sm-6\'>");
 document.writeln("            <p class=\'text-info text-right\'>");
