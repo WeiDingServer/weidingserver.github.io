@@ -30,3 +30,4 @@ document.writeln("          </div>");
 document.writeln("        </div>");
 document.writeln("      </div>");
 document.writeln("    </footer>");
+document.writeln("    <script type=\'text/javascript\' src=\'/assets/js/download.js\'></script>");
