@@ -10,6 +10,7 @@
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/mfpgdjgbjfkpfbjbbkonegbfckaibopa">
   </head><body>
     <script type="text/javascript" src="include/navbar.js"></script>
     <div class="cover">
@@ -170,6 +171,14 @@
               <a href="javascript:;" onclick="ResourcePack('WeiServer.zip')">下載</a>
               <span lang="en-us">(</span>更新日期
               <span lang="en-us">: 2016/3/7)</span>
+            </p>
+			<p>伺服器合成表 Chrome 瀏覽器擴充插件：
+			  <a href="javascript:;" onclick="chrome.webstore.install()" id="install-expansion">安裝</a>
+			  <script>
+			  if (chrome.app.isInstalled) {
+				document.getElementById('install-expansion').style.display = 'none';
+			  }
+			  </script>
             </p>
             <p>
               <span lang="en-us">伺服器臉書社團：
