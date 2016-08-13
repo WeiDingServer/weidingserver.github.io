@@ -11,10 +11,30 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/mfpgdjgbjfkpfbjbbkonegbfckaibopa">
+	<link rel="stylesheet" href="assets/css/skippr.css">
   </head><body>
     <script type="text/javascript" src="include/navbar.js"></script>
-    <div class="cover">
-      <div class="cover-image" style="background-image : url('images/bg.png')"></div>
+	<div class="cover">
+	  <div class="cover-image" id="bg">
+	    <div style="background-image: url(world/map/2016-01-06_19.43.22.png)"></div>
+        <div style="background-image: url(world/map/2016-01-06_19.44.24.png)"></div> 
+        <div style="background-image: url(world/map/2016-01-06_19.47.27.png)"></div>
+        <div style="background-image: url(world/map/2016-01-06_19.48.42.png)"></div>                   
+        <div style="background-image: url(world/map/2016-01-06_19.50.06.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.51.19.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.52.21.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.52.50.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.53.22.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.53.38.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.53.59.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_19.54.34.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_20.09.53.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_20.09.57.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_20.11.19.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_20.11.29.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_20.11.37.png)"></div>
+		<div style="background-image: url(world/map/2016-01-06_20.11.47.png)"></div>
+      </div>
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
@@ -190,6 +210,18 @@
       </div>
     </div>
     <script type="text/javascript" src="include/footer.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="assets/js/skippr.js"></script>
+	<script>
+    $(document).ready(function() {
+      $("#bg").skippr({
+	    arrows : false,
+        autoPlay : true,
+        autoPlayDuration : 3000,
+        logs : false
+      });
+    });
+    </script>
   
 
 </body></html>
